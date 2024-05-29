@@ -48,16 +48,6 @@ app.post("/signup", async function (req, res) {
 });
 //
 
-//  Get all user (READ)
-app.get("/signup", async function (req, res) {
-  try {
-    const signup = await Signup.find();
-    res.status(200).json(signup);
-  } catch (error) {
-    res.status(400).json({ error: error.message });
-  }
-});
-
 // Delete
 app.delete("/signup/:id", async function (req, res) {
   try {
