@@ -1,7 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const Signup = require("./Models/signupModel");
-const Login = require("./Models/loginModel");
 
 //// Middleware
 const app = express();
