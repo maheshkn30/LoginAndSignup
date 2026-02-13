@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node server.js",
-    "mahe": "nodemon server.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
